@@ -20,43 +20,54 @@ body{
 
 #titulo{
     color: #663128;
-    position: relative;
-    font-family: 'poppins';
-    font-weight: 700px;
-    font-size: 58px;
-    left: 290px;
-    top: 216px;
-    line-height: 58.29px;
-    font-weight: bold;
+    position: absolute;
+    width: 800px;
+    height: 175px;
+    left: 360px;
+    top: 300px;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 50.5%;
+    
+    display: flex;
+    align-items: center;
 }
 
 span{
+
     position: relative;
-    font-family: 'poppins';
-    height: 72px;
-    letter-spacing: 15px;
-    font-weight: 400px;
-    font-size: 60px;
-    left: -3px;
-    font-weight: lighter;
-}
+    top: 10px;
+    left: 10px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 58.29px;
+    word-spacing: 5px;
+    letter-spacing: 20px
+
+    }
 
 #Lorem{
     font-family: 'poppins';
     position: absolute;
-width: 552px;
-height: 72px;
-left: 280px;
-top: 426px;
+    width: 552px;
+    height: 72px;
+    left: 370px;
+    top: 475px;
 }
 
 #Imagemprincipal{
 
     position: relative;
     Width: 529.58px;
-Height: 481.17px;
-Top: 202px;
-Left: 602px;
+    Height: 481.17px;
+    Top: 202px;
+    Left: 1050px;
+    
 }
 
 .servicos{
@@ -255,7 +266,7 @@ input[type=button]{
     border-radius: 57px;
     height: 60px;
     width: 180px;
-    top:-150px;
+    top:-120px;
     right:220px;
 
 }
@@ -263,5 +274,30 @@ input[type=button]{
 #botao2{
 
     display: flex;
+
+}
+
+#telefone{
+
+    position: relative;
+    Width: 10px;
+    top: -292px;
+    Left: 102px;
+}
+
+#bordacima{
+
+    position: relative;
+   
+    Right: 500px;
+    
+
+}
+
+#bordabaixo{
+
+position: relative;
+right: 2690px;
+top: 675px;
 
 }
