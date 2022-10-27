@@ -20,44 +20,34 @@ body{
 
 #titulo{
     color: #663128;
-    position: absolute;
-    width: 800px;
-    height: 175px;
-    left: 360px;
-    top: 300px;
-
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 80px;
-    line-height: 50.5%;
-    
-    display: flex;
-    align-items: center;
+    position: relative;
+    font-family: 'poppins';
+    font-weight: 700px;
+    font-size: 58px;
+    left: 290px;
+    top: 216px;
+    line-height: 58.29px;
+    font-weight: bold;
 }
 
 span{
-
     position: relative;
-    top: 10px;
-    left: 10px;
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 58px;
-    line-height: 58.29px;
-    word-spacing: 5px;
-    letter-spacing: 20px
-
-    }
+    font-family: 'poppins';
+    height: 72px;
+    letter-spacing: 15px;
+    font-weight: 400px;
+    font-size: 60px;
+    left: -3px;
+    font-weight: lighter;
+}
 
 #Lorem{
     font-family: 'poppins';
     position: absolute;
     width: 552px;
     height: 72px;
-    left: 370px;
-    top: 475px;
+    left: 280px;
+    top: 426px;
 }
 
 #Imagemprincipal{
@@ -65,9 +55,8 @@ span{
     position: relative;
     Width: 529.58px;
     Height: 481.17px;
-    Top: 202px;
-    Left: 1050px;
-    
+    Top: 182px;
+    Left: 452px;
 }
 
 .servicos{
@@ -97,6 +86,7 @@ span{
     line-height: 96px;
 }
 
+
 input[type=submit]{
     position: relative;
     color: #663128;
@@ -105,10 +95,23 @@ input[type=submit]{
     font-weight: bold;
     border-color: #F3CE5E;
     border-radius: 57px;
-    height: 60px;
-    width: 180px;
+    height: 70px;
+    width: 210px;
+}
+
+#botaoo{
+    position: relative;
+    top : 60px;
+}
+
+#botao{
+
+    position: relative;
+    top: 540px;
 
 }
+
+
 .testy{
 
     display: flex;
@@ -128,55 +131,71 @@ input[type=submit]{
 }
 
 #rectangle01 {
-    position: relative;
-   
+    box-sizing: border-box;
+
+    position: absolute;
     width: 512px;
     height: 192px;
-    background:  #FFFFFF;
+    left: 240px;
+    top: 2221px;
+
+    background: #FFFFFF;
     border: 1px solid #7C4032;
-    border-radius: 20px;
+    border-radius: 30px;
   }
 
 #rectangle02 {
-    position: relative;
-    
 
+    box-sizing: border-box;
+
+    position: absolute;
     width: 512px;
     height: 192px;
-    background:  #FFFFFF;
+    right: 190px;
+    top: 2221px;
+    
+    background: #FFFFFF;
     border: 1px solid #7C4032;
-    border-radius: 20px;
+    border-radius: 30px;
+
 }
 
 
 #rectangle03 {
-    position: relative;
-   
+
+    box-sizing: border-box;
+
+    position: absolute;
     width: 512px;
     height: 192px;
-   
-    background:  #FFFFFF;
+    left: 240px;
+    top: 2455px;
+    
+    background: #FFFFFF;
     border: 1px solid #7C4032;
-    border-radius: 20px;
+    border-radius: 30px;
+
 }
 
 #rectangle04 {
-    position: relative;
-   
+
+    box-sizing: border-box;
+
+    position: absolute;
     width: 512px;
     height: 192px;
-   
-    background:  #FFFFFF;
-    border: 1px solid #7C4032;
-    border-radius: 20px;
-}
+    right: 190px;
+    top: 2455px;
     
-#rectanglesDivUm{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #7C4032;
+    border-radius: 30px;
 
 }
+
+
+    
+
 #rectanglesDivDois{
     display: flex;
     justify-content: space-between;
@@ -201,7 +220,7 @@ input[type=submit]{
     font-weight: 900;
     font-size: 64px;
     line-height: 96px;
-    top:-400px;
+    top:-250px;
 
 }
 
@@ -218,8 +237,8 @@ input[type=submit]{
     position: absolute;
     width: 374px;
     height: 56px;
-    left: 558px;
-    top: 3950px;
+    left: 358px;
+    top: 3200px;
 
     background: #E6AF99;
     border-radius: 61px;
@@ -228,13 +247,11 @@ input[type=submit]{
 
 #retangulo02{
 
-
-
     position: absolute;
     width: 374px;
     height: 56px;
-    left: 558px;
-    top: 4020px;
+    left: 358px;
+    top: 3270px;
 
     background: #E6AF99;
     border-radius: 61px;
@@ -247,8 +264,8 @@ input[type=submit]{
     position: absolute;
     width: 374px;
     height: 56px;
-    left: 558px;
-    top: 4090px;
+    left: 358px;
+    top: 3340px;
 
     background: #E6AF99;
     border-radius: 61px;
@@ -266,8 +283,8 @@ input[type=button]{
     border-radius: 57px;
     height: 60px;
     width: 180px;
-    top:-120px;
-    right:220px;
+    top:-5px;
+    right:230px;
 
 }
 
@@ -281,23 +298,65 @@ input[type=button]{
 
     position: relative;
     Width: 10px;
-    top: -292px;
+    top: -200px;
     Left: 102px;
 }
 
-#bordacima{
-
+#maps{
     position: relative;
-   
-    Right: 500px;
-    
-
+    Width: 10px;
+    top: -160px;
+    Left: 102px;
 }
 
-#bordabaixo{
+#carta{
+    position: relative;
+    Width: 10px;
+    top: -305px;
+    Left: 102px;
+}
 
-position: relative;
-right: 2690px;
-top: 675px;
+#frase1{
 
+    font-family: 'poppins';
+    position: absolute;
+    width: 103px;
+    height: 17px;
+    left: 50px;
+    top: -76px;
+    color: #333333;
+}
+
+#frase2{
+
+    font-family: 'poppins';
+    position: absolute;
+    width: 103px;
+    height: 50px;
+    left: 50px;
+    top: -80px;
+    color: #333333;
+}
+
+#frase3{
+
+    font-family: 'poppins';
+    position: absolute;
+    width: 103px;
+    height: 50px;
+    left: 50px;
+    top: 100px;
+    color: #333333;
+}
+
+footer{
+
+    color:#55352D;
+    position: absolute;
+    width: 1537px;
+    height: 140px;
+    top: 4100px;
+
+    background: #55352D;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
