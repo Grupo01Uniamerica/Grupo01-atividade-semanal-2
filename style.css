@@ -1,51 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 body{
-    margin: 0;
+    margin: auto;
     padding: 0;
     background-color: #FEF4DE;
     color: #7C4032;
+    max-width: 1930px;
 }
 
 .urso01 {
 
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url(imagens/FundoBearBears.png);
+    background-image: url(ImagensFrontEnd/FundoBearBears.png);
     width: 100vw;
     height: 60vw;
 
 }
 
 #titulo{
+    color: #663128;
+    position: relative;
     font-family: 'poppins';
     font-weight: 700px;
     font-size: 58px;
-    left: 352px;
+    left: 290px;
+    top: 216px;
     line-height: 58.29px;
     font-weight: bold;
 }
 
 span{
+    position: relative;
     font-family: 'poppins';
     height: 72px;
-    letter-spacing: 20px;
-    font-weight: 900px;
-    font-size: 40px;
-    left: 352px;
-    font-weight: light;
+    letter-spacing: 15px;
+    font-weight: 400px;
+    font-size: 60px;
+    left: -3px;
+    font-weight: lighter;
 }
 
 #Lorem{
     font-family: 'poppins';
     position: absolute;
-    width: 552px;
-    height: 72px;
-    left: 352px;
-    top: 526px;
+width: 552px;
+height: 72px;
+left: 280px;
+top: 426px;
 }
 
+#Imagemprincipal{
+
+    position: relative;
+    Width: 529.58px;
+Height: 481.17px;
+Top: 202px;
+Left: 602px;
+}
 
 .servicos{
 
@@ -55,36 +67,201 @@ span{
     justify-content: center;
     background-color: #7C4032;
     width: 100vw;
-    height: 60vw;
+    height: 70vw;
+}
+
+#trabalhos{
+    position: relative;
+    top: -60px;
 }
 
 #tituloServicos{
+    position: relative;
     font-family: 'poppins';
     font-style: normal;
     color:#FFFFFF;
+    top: -40px;
     font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
 }
 
+input[type=submit]{
+    position: relative;
+    color: #663128;
+    background-color: #F3CE5E;
+    font-size: large;
+    font-weight: bold;
+    border-color: #F3CE5E;
+    border-radius: 57px;
+    height: 60px;
+    width: 180px;
+
+}
 .testy{
 
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(ImagensFrontEnd/FundoBearBears.png);
     width: 100vw;
     height: 60vw;
 }
 
-.contactus{
+#tituloTesty{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+}
+
+#rectangle01 {
+    position: relative;
+   
+    width: 512px;
+    height: 192px;
+    background:  #FFFFFF;
+    border: 1px solid #7C4032;
+    border-radius: 20px;
+  }
+
+#rectangle02 {
+    position: relative;
+    
+
+    width: 512px;
+    height: 192px;
+    background:  #FFFFFF;
+    border: 1px solid #7C4032;
+    border-radius: 20px;
+}
+
+
+#rectangle03 {
+    position: relative;
+   
+    width: 512px;
+    height: 192px;
+   
+    background:  #FFFFFF;
+    border: 1px solid #7C4032;
+    border-radius: 20px;
+}
+
+#rectangle04 {
+    position: relative;
+   
+    width: 512px;
+    height: 192px;
+   
+    background:  #FFFFFF;
+    border: 1px solid #7C4032;
+    border-radius: 20px;
+}
+    
+#rectanglesDivUm{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#rectanglesDivDois{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.contactus{
     background-color: #FFFFFF;
     width: 100vw;
     height: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-footer{
+#tituloContactus{
 
-    width: 1903px;
-    height: 117px;
-    left: 1903px;
-    top: 3133px;
-    background-color:#55352D;
+    position:relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+    top:-400px;
+
+}
+
+#retangulos{
+
+    display: flex;
+
+}
+
+#retangulo01{
+
+
+
+    position: absolute;
+    width: 374px;
+    height: 56px;
+    left: 558px;
+    top: 3950px;
+
+    background: #E6AF99;
+    border-radius: 61px;
+
+}
+
+#retangulo02{
+
+
+
+    position: absolute;
+    width: 374px;
+    height: 56px;
+    left: 558px;
+    top: 4020px;
+
+    background: #E6AF99;
+    border-radius: 61px;
+}
+
+#retangulo03{
+
+   
+
+    position: absolute;
+    width: 374px;
+    height: 56px;
+    left: 558px;
+    top: 4090px;
+
+    background: #E6AF99;
+    border-radius: 61px;
+}
+
+
+input[type=button]{
+
+    position: relative;
+    color: #7C4032;
+    background-color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+    border-color: #663128;
+    border-radius: 57px;
+    height: 60px;
+    width: 180px;
+    top:-150px;
+    right:220px;
+
+}
+
+#botao2{
+
+    display: flex;
+
 }
