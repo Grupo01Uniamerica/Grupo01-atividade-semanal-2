@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FEF4DE;
+    color: #7C4032;
+}
+
+.urso01 {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(imagens/FundoBearBears.png);
+    width: 100vw;
+    height: 60vw;
+
+}
+
+#titulo{
+    font-family: 'poppins';
+    font-weight: 700px;
+    font-size: 58px;
+    left: 352px;
+    line-height: 58.29px;
+    font-weight: bold;
+}
+
+span{
+    font-family: 'poppins';
+    height: 72px;
+    letter-spacing: 20px;
+    font-weight: 900px;
+    font-size: 40px;
+    left: 352px;
+    font-weight: light;
+}
+
+#Lorem{
+    font-family: 'poppins';
+    position: absolute;
+    width: 552px;
+    height: 72px;
+    left: 352px;
+    top: 526px;
+}
+
+
+.servicos{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7C4032;
+    width: 100vw;
+    height: 60vw;
+}
+
+#tituloServicos{
+    font-family: 'poppins';
+    font-style: normal;
+    color:#FFFFFF;
+    font-weight: 900;
+}
+
+.testy{
+
+    display: flex;
+    background-image: url(ImagensFrontEnd/FundoBearBears.png);
+    width: 100vw;
+    height: 60vw;
+}
+
+.contactus{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 60vw;
+}
+
+footer{
+
+    width: 1903px;
+    height: 117px;
+    left: 1903px;
+    top: 3133px;
+    background-color:#55352D;
+}
