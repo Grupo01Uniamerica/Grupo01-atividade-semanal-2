@@ -9,6 +9,13 @@ body{
     max-width: 1930px;
 }
 
+#botaomain{
+    position: relative;
+    top : 550px;
+    left: -4100px;
+
+}
+
 .urso01 {
 
     display: flex;
@@ -24,6 +31,7 @@ body{
     height: 175px;
     left: 160px;
     top: 250px;
+    color: #663128;
 
 
     font-family: 'Poppins';
@@ -91,6 +99,7 @@ line-height: 24px;
     
     }
 
+
 .servicos{
 
     display: flex;
@@ -136,13 +145,14 @@ input[type=submit]{
     top : 60px;
 }
 
+
 #botao{
 
+    display: flex;
+    justify-content:flex-start;
     position: relative;
     top: 540px;
-
 }
-
 
 .testy{
 
