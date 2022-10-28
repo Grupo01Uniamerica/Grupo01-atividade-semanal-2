@@ -265,6 +265,131 @@ input[type=submit]{
 
 }
 
+#texto1{
+
+    position:relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #7C4032;
+    top: 2px;
+    left: 40px;
+}
+
+#textoret1{
+
+    color: #333333;
+    position:relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #7C4032;
+    top: -10px;
+    left: 30px;
+    font-size: 14px;
+
+
+}
+
+#estrela1{
+    position: relative;
+    Right: -35px;
+    top: -15px;
+
+}
+
+#texto2{
+
+    position:relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #7C4032;
+    top: 2px;
+    left: 40px;
+}
+
+#textoret2{
+
+    color: #333333;
+    position:relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #7C4032;
+    top: -10px;
+    left: 30px;
+    font-size: 14px;
+
+
+}
+
+#estrela2{
+    position: relative;
+    Right: -35px;
+    top: -15px;
+
+}
+
+#texto3{
+
+    position:relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #7C4032;
+    top: 2px;
+    left: 40px;
+}
+
+#textoret3{
+
+    color: #333333;
+    position:relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #7C4032;
+    top: -10px;
+    left: 30px;
+    font-size: 14px;
+
+
+}
+
+#estrela3{
+    position: relative;
+    Right: -35px;
+    top: -15px;
+
+}
+
+#texto4{
+
+    position:relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #7C4032;
+    top: 2px;
+    left: 40px;
+}
+
+#textoret4{
+
+    color: #333333;
+    position:relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #7C4032;
+    top: -10px;
+    left: 30px;
+    font-size: 14px;
+
+
+}
+
+#estrela4{
+    position: relative;
+    Right: -35px;
+    top: -15px;
+
+}
+
+
 #retangulo01{
 
 
@@ -390,7 +515,7 @@ footer{
     position: absolute;
     width: 1537px;
     height: 140px;
-    top: 4100px;
+    top: 3800px;
 
     background: #55352D;
 
